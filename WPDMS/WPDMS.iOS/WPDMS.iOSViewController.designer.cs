@@ -20,6 +20,10 @@ namespace WPDMS.iOS
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton CallHistoryButton { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
 		UITextField PhoneNumberText { get; set; }
 
 		[Outlet]
@@ -31,6 +35,10 @@ namespace WPDMS.iOS
 			if (CallButton != null) {
 				CallButton.Dispose ();
 				CallButton = null;
+			}
+			if (CallHistoryButton != null) {
+				CallHistoryButton.Dispose ();
+				CallHistoryButton = null;
 			}
 			if (PhoneNumberText != null) {
 				PhoneNumberText.Dispose ();

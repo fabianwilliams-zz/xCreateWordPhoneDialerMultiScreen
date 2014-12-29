@@ -118,6 +118,11 @@
     <Compile Include="WPDMS.iOSViewController.designer.cs">
       <DependentUpon>WPDMS.iOSViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="PhoneTranslator.cs" />
+    <Compile Include="CallHistoryController.cs" />
+    <Compile Include="CallHistoryController.designer.cs">
+      <DependentUpon>CallHistoryController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
